@@ -4,5 +4,5 @@ body{
     font-family: sans-serif;
 }
 li:nth-child(even){
-    color: red;
+    color: rgb(158, 99, 212);
 }
