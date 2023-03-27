@@ -1,22 +1,64 @@
-body{
-  font-family: sans-serif;
-  font-size: 1.5rem;
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
 }
-.columns{
-  column-count: 4;
-  column-width: 250px;
-  columns: 4 250px;
-  column-rule: 3px solid #333;
-  column-gap: 3rem ;
+.heading1{
+  height: 70vw;
+  text-align: center;
 }
-.columns p{
-  margin-top: 0;
+h1{
+  background-color: rgb(218, 15, 15);
+  text-align: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
 }
-.columns h2{
-  margin-top: 0;
+.heading2{
+  text-align: center;
+  height: 70vw;
+}
+.heading3{
+  height: 70vw;
+  text-align: center;
+}
+p{
+  margin: 300px;
+}
+.icon{
+  position: fixed;
+  top: 250px;
+  width: 50px;
+}
+
+footer{
+  background-color: tomato;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   background-color: #333;
-  color: #fff;
-  padding: 1rem;
-  break-inside: avoid;
-  
+}
+
+li {
+  float: ;
+}
+
+li{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }
