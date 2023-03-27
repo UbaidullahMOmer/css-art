@@ -7,7 +7,7 @@ body{
   column-width: 250px;
   columns: 4 250px;
   column-rule: 3px solid #333;
-  column-gap: 3rem.;
+  column-gap: 3rem ;
 }
 .columns p{
   margin-top: 0;
